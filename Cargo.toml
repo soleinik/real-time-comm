@@ -10,3 +10,4 @@ edition = "2021"
 
 [workspace.dependencies]
 tokio = "1"
+futures = "0.3"

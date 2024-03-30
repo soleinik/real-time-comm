@@ -10,11 +10,7 @@ axum = { version = "0.7.5", features = ["ws"] }
 axum-extra = { version = "0.9.3", features = ["typed-header"] }
 
 tokio = { workspace = true, features = ["full"] }
-futures = "0.3"
-futures-util = { version = "0.3", default-features = false, features = [
-    "sink",
-    "std",
-] }
+futures = { workspace = true }
 
 tower = { version = "0.4", features = ["util"] }
 tower-http = { version = "0.5.0", features = ["fs", "trace"] }
