@@ -6,6 +6,11 @@ resolver = "2"
 [workspace.package]
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
+homepage = "https://github.com/soleinik"
+repository = "https://github.com/soleinik/real-time-comm"
+authors = ["S. Oleinik"]
+keywords = ["axum", "egui", "websockets", "latency"]
 
 
 [workspace.dependencies]

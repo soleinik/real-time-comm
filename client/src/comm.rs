@@ -11,8 +11,6 @@ use tokio_tungstenite::{connect_async, tungstenite::Message};
 
 const SERVER: &str = "ws://127.0.0.1:8080/ws";
 
-//pub type WSStream = WebSocketStream<MaybeTlsStream<TcpStream>>;
-
 pub async fn connect(lines: Arc<RwLock<Vec<Vec<Pos2>>>>) -> Sender<Pos2> {
     let (tx, mut rx) = tokio::sync::mpsc::channel::<Pos2>(5);
 
