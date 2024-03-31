@@ -83,6 +83,6 @@ Running Server & Client on my host, with WebSockets being bydirectional TCP, I d
 
 However, the [Payload](./client/src/comm/payload.rs#L11) contains timestamp that can be used to programmatically measure delay (and, probably, display it in the window itself (this is not done)).
 
-Another, interesting for me exersise, would be to try [WebRTC](https://crates.io/crates/webrtc) as comm protocol (just for kicks and diff teck stack comparisons) 
+Another (interesting) exersise, would be to try [WebRTC](https://crates.io/crates/webrtc) as comm protocol (just for kicks and diff teck stack comparisons) 
 
 
