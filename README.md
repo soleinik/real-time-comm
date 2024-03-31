@@ -47,7 +47,8 @@ Finished dev [unoptimized + debuginfo] target(s) in 0.08s
 listening on 127.0.0.1:8080
 ```
 
-2. Run client
+2. Run client 
+
 In separate terminal
 ```
 $ cargo run --bin client
